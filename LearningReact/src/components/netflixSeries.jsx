@@ -1,5 +1,5 @@
 import seriesData  from "../api/seriesData.json"
-
+import {Cards} from "./cards.jsx"
 
 
 const Netflix = () =>{
@@ -8,24 +8,23 @@ const Netflix = () =>{
 //   const summary = () =>{
 //     return "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quia suscipit maiores tempore facilis in cum fugiat harum commodi architecto.";
 //   }
-const canwatch = (age) =>{
-    if(age>= 18) return "watch now";
-    else return "not available"
-  }
+
    return (
     <ul>
-   
-        {seriesData.map((currEle) =>{
-            return (
-            <li key={currEle.id}>
-                <img src = {currEle.img} alt="dramaPoster" width="40%" height="40%" />
-                <h1>NAME: {currEle.name}</h1>
-                <p>RATING: {currEle.rating}</p>
-                <p>SYNOPSIS: {currEle.summary}</p>
-                <button>{canwatch(19)}</button>
-            </li>
-            )
-        })}  
+        {seriesData.map((currEle) =>(
+            <Cards 
+            key={currEle.id} 
+            data={currEle} 
+            renderbutton={
+                ()=> {
+                const canwatch = (age) =>{
+                if(age>= 18) return "watch now";
+                else return "not available" }
+                return <button>{canwatch(19)}</button>}}>
+                <p>GENRE: rom-com</p>
+            </Cards>
+            
+        ))}  
     </ul>
    )
   

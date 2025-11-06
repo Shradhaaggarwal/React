@@ -14,6 +14,10 @@
     => for loop not allowed .map works
     => throws error if key is missing
 
+6. numbers ko {} ke andr he paas krna pdega
+
+7. we can pass funcs, jsx as props - children/data,button,etc...
+
 
 
 
