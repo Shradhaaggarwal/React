@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "img": "mgir.png",
+        "name": "MY GIRLFRIEND IS A ROBOT",
+        "rating": 8.2,
+        "summary": "In a near-future world where human-like robots are common, a lonely college student unexpectedly falls in love with a highly advanced robot designed to be the perfect companion. As their relationship deepens, they must navigate societal prejudices, ethical dilemmas, and the challenges of human-robot intimacy."  
+    },
+    {
+        "id": 2,
+        "img": "mgir.png",
+        "name": "STRANGER THINGS",
+        "rating": 9.0,
+        "summary": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, supernatural forces, and a strange little"
+    },
+    {
+        "id": 3,
+        "img": "mgir.png",
+        "name": "THE CROWN",
+        "rating": 8.7,
+        "summary": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century."
+    },
+    {
+        "id": 4,
+        "img": "mgir.png",
+        "name": "BLACK MIRROR",
+        "rating": 8.8,
+        "summary": "An anthology series exploring a twisted, high-tech multiverse where humanity's greatest innovations and darkest instincts collide."
+    }
+]

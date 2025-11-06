@@ -10,6 +10,10 @@
     => named = can have multiple ; {} ; same name
     => mixed = can have both ; import default, {named} from ...
 
+5. looping
+    => for loop not allowed .map works
+    => throws error if key is missing
+
 
 
 
