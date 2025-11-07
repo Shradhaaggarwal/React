@@ -1,21 +1,25 @@
 // import mgir from "./assets/mgir.png";
+import { EventHandler } from "./components/EventHandler.jsx";
 import Netflix, { Headers, Footers} from "./components/NetflixSeries.jsx"; //mixed //named import
 // import {footers} from "./components/netflixSeries.jsx";
 // import netflix from "./components/netflixSeries.jsx"; //default import
-import "./components/Netflix.module.css"; 
+// import "./components/Netflix.module.css"; 
+import {EventAsProps}  from "./components/EventAsProps.jsx"
 
 
 const App = () =>{
   return (
     //returning multiple components , fragments
     <> 
-      <Headers></Headers>
+      {/* <Headers></Headers>
       <Netflix></Netflix>
       <Netflix></Netflix>
       <Netflix></Netflix>
       <Netflix></Netflix>
       <Netflix></Netflix>
-      <Footers></Footers>
+      <Footers></Footers> */}
+      {/* <EventHandler></EventHandler> */}
+      <EventAsProps></EventAsProps>
     </>
   );
 };

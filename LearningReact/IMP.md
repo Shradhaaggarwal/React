@@ -20,6 +20,10 @@
 
 8. `${}`, [''] , styles.cname
 
+9. syntheticBaseEvents - react wraps the native event in wrap so event behaves consistently accross browsers
+
+10. event.stopPropogation(), onClickCapture
+
 
 
 
