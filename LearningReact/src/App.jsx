@@ -1,7 +1,8 @@
 // import mgir from "./assets/mgir.png";
-import Netflix, { Headers, Footers} from "./components/netflixSeries.jsx"; //mixed //named import
+import Netflix, { Headers, Footers} from "./components/NetflixSeries.jsx"; //mixed //named import
 // import {footers} from "./components/netflixSeries.jsx";
 // import netflix from "./components/netflixSeries.jsx"; //default import
+import "./components/Netflix.module.css"; 
 
 
 const App = () =>{

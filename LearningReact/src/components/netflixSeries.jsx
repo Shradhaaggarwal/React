@@ -1,5 +1,7 @@
 import seriesData  from "../api/seriesData.json"
-import {Cards} from "./cards.jsx"
+import {Cards} from "./Cards.jsx"
+import styles from "./Netflix.module.css"
+
 
 
 const Netflix = () =>{
@@ -8,6 +10,11 @@ const Netflix = () =>{
 //   const summary = () =>{
 //     return "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quia suscipit maiores tempore facilis in cum fugiat harum commodi architecto.";
 //   }
+
+const but_sty = {
+    padding : "2px",
+    backgroundColor: "red",
+}
 
    return (
     <ul>
@@ -20,7 +27,7 @@ const Netflix = () =>{
                 const canwatch = (age) =>{
                 if(age>= 18) return "watch now";
                 else return "not available" }
-                return <button>{canwatch(19)}</button>}}>
+                return <button style={but_sty}>{canwatch(19)}</button>}}>
                 <p>GENRE: rom-com</p>
             </Cards>
             

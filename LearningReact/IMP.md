@@ -18,6 +18,8 @@
 
 7. we can pass funcs, jsx as props - children/data,button,etc...
 
+8. `${}`, [''] , styles.cname
+
 
 
 
