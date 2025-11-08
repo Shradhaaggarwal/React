@@ -7,7 +7,9 @@
 // import {EventAsProps}  from "./components/EventAsProps.jsx"
 // import { State } from "./components/State.jsx";
 // import { LiftStateup } from "./components/LiftStateup";
-import {Toggle} from "./components/projects/Toggle/Toggle.jsx"
+// import {Toggle} from "./components/projects/Toggle/Toggle.jsx"
+// import { Todo } from "./components/projects/todo/Todo.jsx"
+import { Todo } from "./components/projects/todo/todo";
 
 
 
@@ -26,7 +28,8 @@ const App = () =>{
       {/* <EventAsProps></EventAsProps> */}
       {/* <State></State> */}
       {/* <LiftStateup></LiftStateup> */}
-      <Toggle></Toggle>
+      {/* <Toggle></Toggle> */}
+      <Todo></Todo>
     </>
   );
 };

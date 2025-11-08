@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.todoContainer {
+    height: 450px;       /* fixed height */
+    width: 420px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: bisque;
+
+    display: flex;
+    flex-direction: column;
+}
+.listWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;               /* take remaining space */
+    overflow: hidden;      /* prevent container overflow */
+}
+
+.headr{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.formm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-content: space-between; */
+}
+
+.but{
+    border: 2px solid black;
+    padding: 2px;
+    width: 100px;
+    box-shadow: 2px 2px 1px rgb(62, 62, 62);
+    cursor: pointer;
+}
+
+input{
+    width: 480px;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 1px rgb(62, 62, 62);
+}
+
+.listdata{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px rgb(62, 62, 62);
+    justify-content: space-between;
+}
+
+.butts{
+    gap: 10px;
+    /* background-color: green; */
+    display: flex;
+}
+
+button{
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px rgb(62, 62, 62);
+    cursor: pointer;
+}
+
+
+
+.clearBtn {
+    margin-top: 10px;
+    width: 120px;
+    align-self: center;
+}
+
+.ontick{
+    text-decoration: line-through;
+}
+.oncross{
+    text-decoration: none;
+}
+
+.scrollArea {
+    flex: 1;                /* fill available space */
+    overflow-y: auto;       /* scrolling! */
+    margin-top: 10px;
+}
+
+/* ✅ Tasks */
+/* .listdata {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 2px solid black;
+    background: #f7d9b5;
+} */
+
+
+
+
